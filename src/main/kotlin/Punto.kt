@@ -1,9 +1,7 @@
-class Punto {
-    var x: Int
-    var y: Int
+data class Punto(var x: Int, var y: Int) {
 
-    constructor(a: Int, b: Int){
-        x = a
-        y = b
-    }
+}
+
+data class ParDePuntos(val p1: Punto, val p2: Punto, val d: Double){
+
 }
